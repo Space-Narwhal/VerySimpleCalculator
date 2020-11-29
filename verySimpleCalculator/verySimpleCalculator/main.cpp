@@ -77,7 +77,7 @@ int main()
         std::for_each(operation.begin(), operation.end(), [](char& c) {c = ::tolower(c); });
 
         whileLoopStopper = calculateResult(numOne, numTwo, operation);
-        std::cout << "\n\nyep";
+        std::cout << "\n\nyepfj";
 
 
     } while (whileLoopStopper);
